@@ -4,7 +4,9 @@
 
 using namespace eng;
 
-Controller::Controller()
+Controller::Controller():
+    window(sf::VideoMode({800, 800}), "game"),
+    windowSize(800, 800)
 {
     if(!ImGui::SFML::Init(window))
     {

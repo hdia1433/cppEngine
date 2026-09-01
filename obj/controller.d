@@ -1,6 +1,6 @@
 obj/controller.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/SDKSettings.json \
-  src/controller/controller.cpp include/controller.hpp \
+  src/controller/controller.cpp include/CppEngine/controller.hpp \
   /opt/homebrew/include/SFML/Graphics.hpp \
   /opt/homebrew/include/SFML/Graphics/BlendMode.hpp \
   /opt/homebrew/include/SFML/Graphics/Export.hpp \
@@ -879,16 +879,16 @@ obj/controller.o: \
   /opt/homebrew/include/SFML/System/FileInputStream.hpp \
   /opt/homebrew/include/SFML/System/InputStream.hpp \
   /opt/homebrew/include/SFML/System/MemoryInputStream.hpp \
-  /opt/homebrew/include/SFML/System/Sleep.hpp externals/imgui/imgui.h \
-  externals/imgui/imconfig.h \
+  /opt/homebrew/include/SFML/System/Sleep.hpp include/CppEngine/imgui.h \
+  include/CppEngine/imconfig.h \
   /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/float.h \
   /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/__float_header_macro.h \
   /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/__float_float.h \
-  include/globals.hpp externals/imgui-sfml/imgui-SFML.h \
-  externals/imgui-sfml/imgui-SFML_export.h
+  include/CppEngine/globals.hpp include/CppEngine/imgui-SFML.h \
+  include/CppEngine/imgui-SFML_export.h
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/SDKSettings.json:
-include/controller.hpp:
+include/CppEngine/controller.hpp:
 /opt/homebrew/include/SFML/Graphics.hpp:
 /opt/homebrew/include/SFML/Graphics/BlendMode.hpp:
 /opt/homebrew/include/SFML/Graphics/Export.hpp:
@@ -1768,12 +1768,12 @@ include/controller.hpp:
 /opt/homebrew/include/SFML/System/InputStream.hpp:
 /opt/homebrew/include/SFML/System/MemoryInputStream.hpp:
 /opt/homebrew/include/SFML/System/Sleep.hpp:
-externals/imgui/imgui.h:
-externals/imgui/imconfig.h:
+include/CppEngine/imgui.h:
+include/CppEngine/imconfig.h:
 /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/float.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/float.h:
 /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/__float_header_macro.h:
 /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/__float_float.h:
-include/globals.hpp:
-externals/imgui-sfml/imgui-SFML.h:
-externals/imgui-sfml/imgui-SFML_export.h:
+include/CppEngine/globals.hpp:
+include/CppEngine/imgui-SFML.h:
+include/CppEngine/imgui-SFML_export.h:
