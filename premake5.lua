@@ -14,8 +14,6 @@ project "CppEngine"
     includedirs
     {
         "include/CppEngine",
-        "externals/imgui-sfml",
-        "externals/imgui",
         "/opt/homebrew/include/"
     }
 
