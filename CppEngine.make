@@ -32,7 +32,7 @@ TARGETDIR = build/obj
 TARGET = $(TARGETDIR)/libCppEngine.dylib
 OBJDIR = obj
 DEFINES +=
-INCLUDES += -Iinclude/CppEngine -Iexternals/imgui-sfml -Iexternals/imgui -I/opt/homebrew/include
+INCLUDES += -Iinclude/CppEngine -I/opt/homebrew/include
 FORCE_INCLUDE +=
 ALL_CPPFLAGS += $(CPPFLAGS) -MD -MP $(DEFINES) $(INCLUDES)
 ALL_CFLAGS += $(CFLAGS) $(ALL_CPPFLAGS) -arch arm64 -fPIC
@@ -67,6 +67,7 @@ GENERATED += $(OBJDIR)/imgui_demo.o
 GENERATED += $(OBJDIR)/imgui_draw.o
 GENERATED += $(OBJDIR)/imgui_tables.o
 GENERATED += $(OBJDIR)/imgui_widgets.o
+GENERATED += $(OBJDIR)/resource.o
 OBJECTS += $(OBJDIR)/controller.o
 OBJECTS += $(OBJDIR)/globals.o
 OBJECTS += $(OBJDIR)/imgui-SFML.o
@@ -75,6 +76,7 @@ OBJECTS += $(OBJDIR)/imgui_demo.o
 OBJECTS += $(OBJDIR)/imgui_draw.o
 OBJECTS += $(OBJDIR)/imgui_tables.o
 OBJECTS += $(OBJDIR)/imgui_widgets.o
+OBJECTS += $(OBJDIR)/resource.o
 
 # Rules
 # #############################################
@@ -160,6 +162,9 @@ $(OBJDIR)/controller.o: src/controller/controller.cpp
 	@echo "$(notdir $<)"
 	$(SILENT) $(CXX) $(ALL_CXXFLAGS) $(FORCE_INCLUDE) -o "$@" -MF "$(@:%.o=%.d)" -c "$<"
 $(OBJDIR)/globals.o: src/controller/globals.cpp
+	@echo "$(notdir $<)"
+	$(SILENT) $(CXX) $(ALL_CXXFLAGS) $(FORCE_INCLUDE) -o "$@" -MF "$(@:%.o=%.d)" -c "$<"
+$(OBJDIR)/resource.o: src/model/resource.cpp
 	@echo "$(notdir $<)"
 	$(SILENT) $(CXX) $(ALL_CXXFLAGS) $(FORCE_INCLUDE) -o "$@" -MF "$(@:%.o=%.d)" -c "$<"
 
