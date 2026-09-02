@@ -44,7 +44,7 @@ bool Button::renderDefaultSize()
     float buttonWidth = ImGui::CalcTextSize(label.c_str()).x + ImGui::GetStyle().FramePadding.x;
     float availableWidth = ImGui::GetContentRegionAvail().x;
 
-    if(Alignment::Middle == alignment)
+    if(Alignment::Centre == alignment)
     {
         ImGui::SetCursorPosX(ImGui::GetCursorPosX() + (availableWidth + buttonWidth) / 2);
 
@@ -67,7 +67,7 @@ bool Button::renderCustomSize()
 
     float availableWidth = ImGui::GetContentRegionAvail().x;
 
-    if(Alignment::Middle == alignment)
+    if(Alignment::Centre == alignment)
     {
         ImGui::SetCursorPosX(ImGui::GetCursorPosX() + (availableWidth - size.x) / 2);
 

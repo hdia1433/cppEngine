@@ -9,7 +9,7 @@ public:
     {
         Left,
         Right,
-        Middle
+        Centre
     };
 
 protected:
