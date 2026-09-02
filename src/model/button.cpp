@@ -1,4 +1,5 @@
 #include "button.hpp"
+#include "globals.hpp"
 
 using namespace eng;
 
@@ -57,9 +58,11 @@ bool Button::renderDefaultSize()
 
 bool Button::renderCustomSize()
 {
+    ImVec2 scaledSize = {size.x * Globals::scale, size.y * Globals::scale};
+
     if(Alignment::Left == alignment)
     {
-        return ImGui::Button(label.c_str(), size);
+        return ImGui::Button(label.c_str(), scaledSize);
     }
 
     float availableWidth = ImGui::GetContentRegionAvail().x;
@@ -68,10 +71,10 @@ bool Button::renderCustomSize()
     {
         ImGui::SetCursorPosX(ImGui::GetCursorPosX() + (availableWidth - size.x) / 2);
 
-        return ImGui::Button(label.c_str(), size);
+        return ImGui::Button(label.c_str(), scaledSize);
     }
 
     ImGui::SetCursorPosX(ImGui::GetCursorPosX() + availableWidth - size.x);
 
-    return ImGui::Button(label.c_str(), size);
+    return ImGui::Button(label.c_str(), scaledSize);
 }
