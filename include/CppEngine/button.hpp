@@ -17,6 +17,8 @@ namespace eng
     public:
         Button(const std::string& label, const ImVec2& size = {0, 0});
 
+        void setOnPressed(const std::function<void()>& onPressed);
+
         void render() override;
 
     private:

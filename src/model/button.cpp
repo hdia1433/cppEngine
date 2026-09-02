@@ -9,6 +9,11 @@ Button::Button(const std::string& label, const ImVec2& size):
 
 }
 
+void Button::setOnPressed(const std::function<void()>& onPressed)
+{
+    this->onPressed = onPressed;
+}
+
 void Button::render()
 {
     bool pressed = false;
