@@ -46,7 +46,7 @@ bool Button::renderDefaultSize()
 
     if(Alignment::Centre == alignment)
     {
-        ImGui::SetCursorPosX(ImGui::GetCursorPosX() + (availableWidth + buttonWidth) / 2);
+        ImGui::SetCursorPosX(ImGui::GetCursorPosX() + (availableWidth - buttonWidth) / 2);
 
         return ImGui::Button(label.c_str());
     }
@@ -69,12 +69,12 @@ bool Button::renderCustomSize()
 
     if(Alignment::Centre == alignment)
     {
-        ImGui::SetCursorPosX(ImGui::GetCursorPosX() + (availableWidth - size.x) / 2);
+        ImGui::SetCursorPosX(ImGui::GetCursorPosX() + (availableWidth - scaledSize.x) / 2);
 
         return ImGui::Button(label.c_str(), scaledSize);
     }
 
-    ImGui::SetCursorPosX(ImGui::GetCursorPosX() + availableWidth - size.x);
+    ImGui::SetCursorPosX(ImGui::GetCursorPosX() + availableWidth - scaledSize.x);
 
     return ImGui::Button(label.c_str(), scaledSize);
 }
