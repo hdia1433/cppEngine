@@ -724,8 +724,8 @@ obj/imgui-SFML.o: \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__ranges/empty.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__ranges/rbegin.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__ranges/rend.h \
-  externals/imgui-sfml/imgui-SFML_export.h include/CppEngine/imgui.h \
-  include/CppEngine/imconfig.h \
+  externals/imgui-sfml/imgui-SFML_export.h \
+  include/CppEngine/imgui/imgui.h include/CppEngine/imgui/imconfig.h \
   /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/float.h \
   /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/__float_header_macro.h \
@@ -1755,8 +1755,8 @@ externals/imgui-sfml/imgui-SFML.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__ranges/rbegin.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__ranges/rend.h:
 externals/imgui-sfml/imgui-SFML_export.h:
-include/CppEngine/imgui.h:
-include/CppEngine/imconfig.h:
+include/CppEngine/imgui/imgui.h:
+include/CppEngine/imgui/imconfig.h:
 /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/float.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/float.h:
 /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/__float_header_macro.h:

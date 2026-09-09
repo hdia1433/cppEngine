@@ -1,6 +1,6 @@
 obj/resource.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/SDKSettings.json \
-  src/model/resource.cpp include/CppEngine/resource.hpp \
+  src/model/resource.cpp include/CppEngine/backend/resource.hpp \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/filesystem \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__config \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__config_site \
@@ -612,7 +612,7 @@ obj/resource.o: \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__format/indic_conjunct_break_table.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__format/width_estimation_table.h
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/SDKSettings.json:
-include/CppEngine/resource.hpp:
+include/CppEngine/backend/resource.hpp:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/filesystem:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__config:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__config_site:

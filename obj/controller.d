@@ -1,6 +1,6 @@
 obj/controller.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/SDKSettings.json \
-  src/controller/controller.cpp include/CppEngine/controller.hpp \
+  src/controller/controller.cpp include/CppEngine/backend/controller.hpp \
   /opt/homebrew/include/SFML/Graphics.hpp \
   /opt/homebrew/include/SFML/Graphics/BlendMode.hpp \
   /opt/homebrew/include/SFML/Graphics/Export.hpp \
@@ -879,16 +879,19 @@ obj/controller.o: \
   /opt/homebrew/include/SFML/System/FileInputStream.hpp \
   /opt/homebrew/include/SFML/System/InputStream.hpp \
   /opt/homebrew/include/SFML/System/MemoryInputStream.hpp \
-  /opt/homebrew/include/SFML/System/Sleep.hpp include/CppEngine/imgui.h \
-  include/CppEngine/imconfig.h \
+  /opt/homebrew/include/SFML/System/Sleep.hpp \
+  include/CppEngine/backend/../imgui/imgui.h \
+  include/CppEngine/backend/../imgui/imconfig.h \
   /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/float.h \
   /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/__float_header_macro.h \
   /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/__float_float.h \
-  include/CppEngine/scene.hpp include/CppEngine/globals.hpp \
-  include/CppEngine/imgui-SFML.h include/CppEngine/imgui-SFML_export.h
+  include/CppEngine/backend/../components/scene.hpp \
+  include/CppEngine/backend/globals.hpp \
+  include/CppEngine/imgui/imgui-SFML.h \
+  include/CppEngine/imgui/imgui-SFML_export.h
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/SDKSettings.json:
-include/CppEngine/controller.hpp:
+include/CppEngine/backend/controller.hpp:
 /opt/homebrew/include/SFML/Graphics.hpp:
 /opt/homebrew/include/SFML/Graphics/BlendMode.hpp:
 /opt/homebrew/include/SFML/Graphics/Export.hpp:
@@ -1768,13 +1771,13 @@ include/CppEngine/controller.hpp:
 /opt/homebrew/include/SFML/System/InputStream.hpp:
 /opt/homebrew/include/SFML/System/MemoryInputStream.hpp:
 /opt/homebrew/include/SFML/System/Sleep.hpp:
-include/CppEngine/imgui.h:
-include/CppEngine/imconfig.h:
+include/CppEngine/backend/../imgui/imgui.h:
+include/CppEngine/backend/../imgui/imconfig.h:
 /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/float.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/float.h:
 /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/__float_header_macro.h:
 /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/__float_float.h:
-include/CppEngine/scene.hpp:
-include/CppEngine/globals.hpp:
-include/CppEngine/imgui-SFML.h:
-include/CppEngine/imgui-SFML_export.h:
+include/CppEngine/backend/../components/scene.hpp:
+include/CppEngine/backend/globals.hpp:
+include/CppEngine/imgui/imgui-SFML.h:
+include/CppEngine/imgui/imgui-SFML_export.h:

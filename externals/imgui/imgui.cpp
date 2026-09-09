@@ -15300,7 +15300,7 @@ static void ImGui::UpdateViewportsNewFrame()
     }
 
     // Create/update main viewport with current platform position.
-    // FIXME-VIEWPORT: Size is driven by backend/user code for backward-compatibility but we should aim to make this more consistent.
+    // FIXME-VIEWPORT: Size is driven by user code for backward-compatibility but we should aim to make this more consistent.
     ImGuiViewportP* main_viewport = g.Viewports[0];
     IM_ASSERT(main_viewport->ID == IMGUI_VIEWPORT_DEFAULT_ID);
     IM_ASSERT(main_viewport->Window == NULL);

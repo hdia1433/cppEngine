@@ -1,7 +1,7 @@
 obj/imgui_stdlib.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/SDKSettings.json \
-  externals/imgui/misc/cpp/imgui_stdlib.cpp include/CppEngine/imgui.h \
-  include/CppEngine/imconfig.h \
+  externals/imgui/misc/cpp/imgui_stdlib.cpp \
+  include/CppEngine/imgui/imgui.h include/CppEngine/imgui/imconfig.h \
   /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/float.h \
   /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/__float_header_macro.h \
@@ -399,8 +399,8 @@ obj/imgui_stdlib.o: \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__iterator/reverse_access.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__iterator/size.h
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/SDKSettings.json:
-include/CppEngine/imgui.h:
-include/CppEngine/imconfig.h:
+include/CppEngine/imgui/imgui.h:
+include/CppEngine/imgui/imconfig.h:
 /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/float.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/float.h:
 /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/__float_header_macro.h:

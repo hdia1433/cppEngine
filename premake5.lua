@@ -13,7 +13,9 @@ project "CppEngine"
 
     includedirs
     {
-        "include/CppEngine",
+        "include/CppEngine/*",
+        "include/CppEngine/",
+        "include/",
         "/opt/homebrew/include/"
     }
 
@@ -21,8 +23,7 @@ project "CppEngine"
     {
         "include/**.hpp",
         "src/**.cpp",
-        "externals/**.cpp",
-        "externals/**.h"
+        "externals/**.cpp"
     }
 
     links

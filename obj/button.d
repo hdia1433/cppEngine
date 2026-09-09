@@ -1,8 +1,9 @@
 obj/button.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/SDKSettings.json \
-  src/model/button.cpp include/CppEngine/button.hpp \
-  include/CppEngine/uiElement.hpp include/CppEngine/imgui.h \
-  include/CppEngine/imconfig.h \
+  src/model/button.cpp include/CppEngine/uiElement/button.hpp \
+  include/CppEngine/uiElement/uiElement.hpp \
+  include/CppEngine/uiElement/../imgui/imgui.h \
+  include/CppEngine/uiElement/../imgui/imconfig.h \
   /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/float.h \
   /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/__float_header_macro.h \
@@ -471,12 +472,12 @@ obj/button.o: \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/bind_back.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/bind_front.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/ranges_operations.h \
-  include/CppEngine/globals.hpp
+  include/CppEngine/backend/globals.hpp
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/SDKSettings.json:
-include/CppEngine/button.hpp:
-include/CppEngine/uiElement.hpp:
-include/CppEngine/imgui.h:
-include/CppEngine/imconfig.h:
+include/CppEngine/uiElement/button.hpp:
+include/CppEngine/uiElement/uiElement.hpp:
+include/CppEngine/uiElement/../imgui/imgui.h:
+include/CppEngine/uiElement/../imgui/imconfig.h:
 /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/float.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/float.h:
 /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/__float_header_macro.h:
@@ -945,4 +946,4 @@ include/CppEngine/imconfig.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/bind_back.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/bind_front.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/ranges_operations.h:
-include/CppEngine/globals.hpp:
+include/CppEngine/backend/globals.hpp:

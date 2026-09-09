@@ -1,6 +1,6 @@
 obj/globals.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/SDKSettings.json \
-  src/controller/globals.cpp include/CppEngine/globals.hpp \
+  src/controller/globals.cpp include/CppEngine/backend/globals.hpp \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/string \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__algorithm/max.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__algorithm/comp.h \
@@ -390,7 +390,7 @@ obj/globals.o: \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__iterator/reverse_access.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__iterator/size.h
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/SDKSettings.json:
-include/CppEngine/globals.hpp:
+include/CppEngine/backend/globals.hpp:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/string:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__algorithm/max.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__algorithm/comp.h:

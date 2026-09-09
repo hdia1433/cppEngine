@@ -1,7 +1,8 @@
 obj/popupMenu.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/SDKSettings.json \
-  src/model/popupMenu.cpp include/CppEngine/popupMenu.hpp \
-  include/CppEngine/uiElement.hpp include/CppEngine/globals.hpp \
+  src/model/popupMenu.cpp include/CppEngine/uiElement/popupMenu.hpp \
+  include/CppEngine/uiElement/uiElement.hpp \
+  include/CppEngine/backend/globals.hpp \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/string \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__algorithm/max.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__algorithm/comp.h \
@@ -391,9 +392,9 @@ obj/popupMenu.o: \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__iterator/reverse_access.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__iterator/size.h
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/SDKSettings.json:
-include/CppEngine/popupMenu.hpp:
-include/CppEngine/uiElement.hpp:
-include/CppEngine/globals.hpp:
+include/CppEngine/uiElement/popupMenu.hpp:
+include/CppEngine/uiElement/uiElement.hpp:
+include/CppEngine/backend/globals.hpp:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/string:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__algorithm/max.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__algorithm/comp.h:
