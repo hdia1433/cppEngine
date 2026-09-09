@@ -3,10 +3,8 @@
 
 using namespace eng;
 
-PopupMenu::PopupMenu(const std::string& label, bool inputBlocking, ImGuiWindowFlags flags):
-    label(label),
+PopupMenu::PopupMenu(bool inputBlocking):
     inputBlocking(inputBlocking),
-    flags(flags),
     visible(false)
 {
 
@@ -16,6 +14,9 @@ void PopupMenu::setVisible(bool visible)
 {
     this->visible = visible;
 
-    Globals::popupOpen = visible;
+    if(inputBlocking)
+    {
+        Globals::popupOpen = visible;
+    }
 }
 
