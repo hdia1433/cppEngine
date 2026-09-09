@@ -19,16 +19,3 @@ void PopupMenu::setVisible(bool visible)
     Globals::popupOpen = visible;
 }
 
-void PopupMenu::render()
-{
-    if(visible != Globals::popupOpen)
-    {
-        Globals::popupOpen = visible;
-    }
-
-    if(ImGui::Begin(label.c_str(), nullptr, flags))
-    {
-        popupRender();
-    }
-    ImGui::End();
-}

@@ -19,8 +19,5 @@ namespace eng
         PopupMenu(const std::string& label, bool inputBlocking = true, ImGuiWindowFlags flags = 0);
 
         void setVisible(bool visible);
-
-        void render() override;
-        virtual void popupRender() = 0;
     };
 }
