@@ -12,11 +12,15 @@ namespace eng
         std::string label;
         bool inputBlocking;
         ImGuiWindowFlags flags;
+        bool visible;
+
+    protected:
     public:
         PopupMenu(const std::string& label, bool inputBlocking = true, ImGuiWindowFlags flags = 0);
 
-        void render() override;
+        void setVisible(bool visible);
 
+        void render() override;
         virtual void popupRender() = 0;
     };
 }
