@@ -10,6 +10,11 @@ PopupMenu::PopupMenu(bool inputBlocking):
 
 }
 
+bool& PopupMenu::getVisible()
+{
+    return visible;
+}
+
 void PopupMenu::setVisible(bool visible)
 {
     this->visible = visible;

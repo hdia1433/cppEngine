@@ -14,6 +14,7 @@ namespace eng
     public:
         PopupMenu(bool inputBlocking = true);
 
+        bool& getVisible();
         void setVisible(bool visible);
     };
 }
