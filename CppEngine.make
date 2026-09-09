@@ -68,6 +68,7 @@ GENERATED += $(OBJDIR)/imgui_demo.o
 GENERATED += $(OBJDIR)/imgui_draw.o
 GENERATED += $(OBJDIR)/imgui_tables.o
 GENERATED += $(OBJDIR)/imgui_widgets.o
+GENERATED += $(OBJDIR)/popupMenu.o
 GENERATED += $(OBJDIR)/resource.o
 GENERATED += $(OBJDIR)/uiElement.o
 OBJECTS += $(OBJDIR)/button.o
@@ -79,6 +80,7 @@ OBJECTS += $(OBJDIR)/imgui_demo.o
 OBJECTS += $(OBJDIR)/imgui_draw.o
 OBJECTS += $(OBJDIR)/imgui_tables.o
 OBJECTS += $(OBJDIR)/imgui_widgets.o
+OBJECTS += $(OBJDIR)/popupMenu.o
 OBJECTS += $(OBJDIR)/resource.o
 OBJECTS += $(OBJDIR)/uiElement.o
 
@@ -169,6 +171,9 @@ $(OBJDIR)/globals.o: src/controller/globals.cpp
 	@echo "$(notdir $<)"
 	$(SILENT) $(CXX) $(ALL_CXXFLAGS) $(FORCE_INCLUDE) -o "$@" -MF "$(@:%.o=%.d)" -c "$<"
 $(OBJDIR)/button.o: src/model/button.cpp
+	@echo "$(notdir $<)"
+	$(SILENT) $(CXX) $(ALL_CXXFLAGS) $(FORCE_INCLUDE) -o "$@" -MF "$(@:%.o=%.d)" -c "$<"
+$(OBJDIR)/popupMenu.o: src/model/popupMenu.cpp
 	@echo "$(notdir $<)"
 	$(SILENT) $(CXX) $(ALL_CXXFLAGS) $(FORCE_INCLUDE) -o "$@" -MF "$(@:%.o=%.d)" -c "$<"
 $(OBJDIR)/resource.o: src/model/resource.cpp
