@@ -187,5 +187,89 @@
    "src/model/resource.cpp"
   ],
   "file": "src/model/resource.cpp"
+ },
+ {
+  "directory": "/Users/heberdiamond/cppProjects/cppEngine",
+  "arguments": [
+   "clang++",
+   "-MD",
+   "-MP",
+   "-Iinclude/CppEngine",
+   "-I/opt/homebrew/include",
+   "-arch",
+   "arm64",
+   "-fPIC",
+   "-std=c++23",
+   "-o",
+   "obj/button.o",
+   "-MF",
+   "obj/button.d",
+   "-c",
+   "src/model/button.cpp"
+  ],
+  "file": "src/model/button.cpp"
+ },
+ {
+  "directory": "/Users/heberdiamond/cppProjects/cppEngine",
+  "arguments": [
+   "clang++",
+   "-MD",
+   "-MP",
+   "-Iinclude/CppEngine",
+   "-I/opt/homebrew/include",
+   "-arch",
+   "arm64",
+   "-fPIC",
+   "-std=c++23",
+   "-o",
+   "obj/imgui_stdlib.o",
+   "-MF",
+   "obj/imgui_stdlib.d",
+   "-c",
+   "externals/imgui/misc/cpp/imgui_stdlib.cpp"
+  ],
+  "file": "externals/imgui/misc/cpp/imgui_stdlib.cpp"
+ },
+ {
+  "directory": "/Users/heberdiamond/cppProjects/cppEngine",
+  "arguments": [
+   "clang++",
+   "-MD",
+   "-MP",
+   "-Iinclude/CppEngine",
+   "-I/opt/homebrew/include",
+   "-arch",
+   "arm64",
+   "-fPIC",
+   "-std=c++23",
+   "-o",
+   "obj/popupMenu.o",
+   "-MF",
+   "obj/popupMenu.d",
+   "-c",
+   "src/model/popupMenu.cpp"
+  ],
+  "file": "src/model/popupMenu.cpp"
+ },
+ {
+  "directory": "/Users/heberdiamond/cppProjects/cppEngine",
+  "arguments": [
+   "clang++",
+   "-MD",
+   "-MP",
+   "-Iinclude/CppEngine",
+   "-I/opt/homebrew/include",
+   "-arch",
+   "arm64",
+   "-fPIC",
+   "-std=c++23",
+   "-o",
+   "obj/uiElement.o",
+   "-MF",
+   "obj/uiElement.d",
+   "-c",
+   "src/model/uiElement.cpp"
+  ],
+  "file": "src/model/uiElement.cpp"
  }
 ]
