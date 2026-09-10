@@ -1,20 +1,29 @@
 #pragma once
 
 #include "uiElement.hpp"
+#include "../imgui/imgui.h"
+#include <functional>
+#include <string>
 
 namespace eng
 {
     class PopupMenu: public UIElement
     {
     private:
-        bool inputBlocking;
-        bool visible;
+        std::string label;
+        bool modal;
+        ImGuiWindowFlags flags;
 
     protected:
-    public:
-        PopupMenu(bool inputBlocking = true);
+        std::function<void()> renderMenu;
 
-        bool& getVisible();
-        void setVisible(bool visible);
+    public:
+        PopupMenu(std::string_view label, bool modal);
+        PopupMenu(std::string_view label, ImGuiWindowFlags flags = 0);
+
+        void setRenderMenu(const std::function<void()>& renderMenu);
+
+        void render() override;
+        void open();
     };
 }

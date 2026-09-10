@@ -78,11 +78,6 @@ void Controller::render()
 
         ImGuiWindowFlags windowFlags = ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoTitleBar;
 
-        if(Globals::popupOpen)
-        {
-            windowFlags |= ImGuiWindowFlags_NoInputs;
-        }
-
         if(ImGui::Begin("##window", nullptr, windowFlags))
         {
             ImGui::SetWindowFontScale(Globals::scale);

@@ -5,4 +5,3 @@ using namespace eng;
 bool Globals::running = true;
 std::string Globals::currentScene = "";
 float Globals::scale = 1;
-bool Globals::popupOpen = false;

@@ -10,6 +10,5 @@ namespace eng
         static bool running;
         static std::string currentScene;
         static float scale;
-        static bool popupOpen;
     };
 }

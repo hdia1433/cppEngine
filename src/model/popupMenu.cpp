@@ -1,27 +1,38 @@
 #include "popupMenu.hpp"
-#include "globals.hpp"
 
 using namespace eng;
 
-PopupMenu::PopupMenu(bool inputBlocking):
-    inputBlocking(inputBlocking),
-    visible(false)
+PopupMenu::PopupMenu(std::string_view label, bool modal):
+    label(label),
+    modal(modal),
+    flags(0)
 {
 
 }
 
-bool& PopupMenu::getVisible()
+PopupMenu::PopupMenu(std::string_view label, ImGuiWindowFlags flags):
+    label(label),
+    modal(false),
+    flags(flags)
 {
-    return visible;
+
 }
 
-void PopupMenu::setVisible(bool visible)
+void PopupMenu::setRenderMenu(const std::function<void()>& renderMenu)
 {
-    this->visible = visible;
+    this->renderMenu = renderMenu;
+}
 
-    if(inputBlocking)
+void PopupMenu::render()
+{
+    if((modal && ImGui::BeginPopupModal(label.c_str()) || (!modal && ImGui::BeginPopup(label.c_str(), flags))))
     {
-        Globals::popupOpen = visible;
+        renderMenu();
+        ImGui::EndPopup();
     }
 }
 
+void PopupMenu::open()
+{
+    ImGui::OpenPopup(label.c_str());
+}
