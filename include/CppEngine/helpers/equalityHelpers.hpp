@@ -7,7 +7,7 @@ namespace eng
     template<typename T>
     bool equalsOr(T thing, std::initializer_list<T> others)
     {
-        for(T& otherThing: others)
+        for(const T& otherThing: others)
         {
             if(thing == otherThing)
             {
