@@ -2,11 +2,6 @@
 
 using namespace eng;
 
-using Label = UIElement::Label;
-
-Label::Label(std::string_view label): label(label)
-{}
-
 UIElement::UIElement()
 {}
 
