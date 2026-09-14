@@ -2,7 +2,7 @@
 
 #include <SFML/Graphics.hpp>
 #include "CppEngine/imgui/imgui.h"
-#include "CppEngine/Parents/scene.hpp"
+#include "CppEngine/parents/scene.hpp"
 
 namespace eng
 {
