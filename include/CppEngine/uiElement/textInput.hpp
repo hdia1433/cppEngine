@@ -1,14 +1,19 @@
 #pragma once
 
 #include "uiElement.hpp"
+#include "CppEngine/components/label.hpp"
 
 class TextInput: public eng::UIElement
 {
 private:
-    
+    Label label;
+
+    std::string buffer;
 
 public:
-    TextInput();
+    TextInput(std::string_view label);
+
+    std::string_view getBuffer();
 
     void render() override;
 };

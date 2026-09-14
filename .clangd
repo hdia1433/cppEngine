@@ -1,0 +1,4 @@
+If:
+  PathMatch: .*src/model/uiElement/textInput\.cpp
+Diagnostics:
+  Suppress: [unused-includes]
