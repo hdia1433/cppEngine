@@ -1,4 +1,4 @@
-#include "globals.hpp"
+#include "CppEngine/backend/globals.hpp"
 
 using namespace eng;
 

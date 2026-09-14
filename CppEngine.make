@@ -32,7 +32,7 @@ TARGETDIR = build/obj
 TARGET = $(TARGETDIR)/libCppEngine.dylib
 OBJDIR = obj
 DEFINES +=
-INCLUDES += -Iinclude/CppEngine/uiElement -Iinclude/CppEngine/imgui -Iinclude/CppEngine/backend -Iinclude/CppEngine/components -Iinclude/CppEngine/helpers -Iinclude/CppEngine -Iinclude -I/opt/homebrew/include
+INCLUDES += -Iinclude -I/opt/homebrew/include
 FORCE_INCLUDE +=
 ALL_CPPFLAGS += $(CPPFLAGS) -MD -MP $(DEFINES) $(INCLUDES)
 ALL_CFLAGS += $(CFLAGS) $(ALL_CPPFLAGS) -arch arm64 -fPIC
@@ -71,6 +71,7 @@ GENERATED += $(OBJDIR)/imgui_tables.o
 GENERATED += $(OBJDIR)/imgui_widgets.o
 GENERATED += $(OBJDIR)/popupMenu.o
 GENERATED += $(OBJDIR)/resource.o
+GENERATED += $(OBJDIR)/textInput.o
 GENERATED += $(OBJDIR)/uiElement.o
 OBJECTS += $(OBJDIR)/button.o
 OBJECTS += $(OBJDIR)/controller.o
@@ -84,6 +85,7 @@ OBJECTS += $(OBJDIR)/imgui_tables.o
 OBJECTS += $(OBJDIR)/imgui_widgets.o
 OBJECTS += $(OBJDIR)/popupMenu.o
 OBJECTS += $(OBJDIR)/resource.o
+OBJECTS += $(OBJDIR)/textInput.o
 OBJECTS += $(OBJDIR)/uiElement.o
 
 # Rules
@@ -172,19 +174,22 @@ $(OBJDIR)/imgui_stdlib.o: externals/imgui/misc/cpp/imgui_stdlib.cpp
 $(OBJDIR)/controller.o: src/controller/controller.cpp
 	@echo "$(notdir $<)"
 	$(SILENT) $(CXX) $(ALL_CXXFLAGS) $(FORCE_INCLUDE) -o "$@" -MF "$(@:%.o=%.d)" -c "$<"
-$(OBJDIR)/globals.o: src/controller/globals.cpp
+$(OBJDIR)/globals.o: src/model/backend/globals.cpp
 	@echo "$(notdir $<)"
 	$(SILENT) $(CXX) $(ALL_CXXFLAGS) $(FORCE_INCLUDE) -o "$@" -MF "$(@:%.o=%.d)" -c "$<"
-$(OBJDIR)/button.o: src/model/button.cpp
+$(OBJDIR)/resource.o: src/model/backend/resource.cpp
 	@echo "$(notdir $<)"
 	$(SILENT) $(CXX) $(ALL_CXXFLAGS) $(FORCE_INCLUDE) -o "$@" -MF "$(@:%.o=%.d)" -c "$<"
-$(OBJDIR)/popupMenu.o: src/model/popupMenu.cpp
+$(OBJDIR)/button.o: src/model/uiElement/button.cpp
 	@echo "$(notdir $<)"
 	$(SILENT) $(CXX) $(ALL_CXXFLAGS) $(FORCE_INCLUDE) -o "$@" -MF "$(@:%.o=%.d)" -c "$<"
-$(OBJDIR)/resource.o: src/model/resource.cpp
+$(OBJDIR)/popupMenu.o: src/model/uiElement/popupMenu.cpp
 	@echo "$(notdir $<)"
 	$(SILENT) $(CXX) $(ALL_CXXFLAGS) $(FORCE_INCLUDE) -o "$@" -MF "$(@:%.o=%.d)" -c "$<"
-$(OBJDIR)/uiElement.o: src/model/uiElement.cpp
+$(OBJDIR)/textInput.o: src/model/uiElement/textInput.cpp
+	@echo "$(notdir $<)"
+	$(SILENT) $(CXX) $(ALL_CXXFLAGS) $(FORCE_INCLUDE) -o "$@" -MF "$(@:%.o=%.d)" -c "$<"
+$(OBJDIR)/uiElement.o: src/model/uiElement/uiElement.cpp
 	@echo "$(notdir $<)"
 	$(SILENT) $(CXX) $(ALL_CXXFLAGS) $(FORCE_INCLUDE) -o "$@" -MF "$(@:%.o=%.d)" -c "$<"
 

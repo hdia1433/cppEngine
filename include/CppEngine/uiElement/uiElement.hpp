@@ -1,5 +1,7 @@
 #pragma once
 
+#include <string>
+
 namespace eng
 {
 class UIElement
@@ -10,6 +12,15 @@ public:
         Left,
         Right,
         Centre
+    };
+
+    class Label
+    {
+    private:
+        std::string label;
+
+    public:
+        Label(std::string_view label);
     };
 
 protected:
@@ -23,4 +34,4 @@ public:
 
     virtual void render() = 0;
 };
-}
+} // namespace eng

@@ -1,8 +1,8 @@
 #pragma once
 
 #include <SFML/Graphics.hpp>
-#include "../imgui/imgui.h"
-#include "../components/scene.hpp"
+#include "CppEngine/imgui/imgui.h"
+#include "CppEngine/Parents/scene.hpp"
 
 namespace eng
 {

@@ -1,6 +1,6 @@
-#include "controller.hpp"
-#include "globals.hpp"
-#include <imgui-SFML.h>
+#include "CppEngine/backend/controller.hpp"
+#include "CppEngine/backend/globals.hpp"
+#include "CppEngine/imgui/imgui-SFML.h"
 
 using namespace eng;
 

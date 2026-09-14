@@ -13,8 +13,6 @@ project "CppEngine"
 
     includedirs
     {
-        "include/CppEngine/*",
-        "include/CppEngine/",
         "include/",
         "/opt/homebrew/include/"
     }

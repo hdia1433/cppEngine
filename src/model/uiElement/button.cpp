@@ -1,5 +1,5 @@
-#include "button.hpp"
-#include "globals.hpp"
+#include "CppEngine/uiElement/button.hpp"
+#include "CppEngine/backend/globals.hpp"
 
 using namespace eng;
 
