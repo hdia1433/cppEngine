@@ -292,5 +292,26 @@
    "src/model/uiElement/uiElement.cpp"
   ],
   "file": "src/model/uiElement/uiElement.cpp"
+ },
+ {
+  "directory": "/Users/heberdiamond/cppProjects/cppEngine",
+  "arguments": [
+   "clang++",
+   "-MD",
+   "-MP",
+   "-Iinclude",
+   "-I/opt/homebrew/include",
+   "-arch",
+   "arm64",
+   "-fPIC",
+   "-std=c++23",
+   "-o",
+   "obj/label.o",
+   "-MF",
+   "obj/label.d",
+   "-c",
+   "src/model/components/label.cpp"
+  ],
+  "file": "src/model/components/label.cpp"
  }
 ]

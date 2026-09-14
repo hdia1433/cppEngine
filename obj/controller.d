@@ -885,7 +885,7 @@ obj/controller.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/float.h \
   /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__float_header_macro.h \
   /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__float_float.h \
-  include/CppEngine/Parents/scene.hpp \
+  include/CppEngine/parents/scene.hpp \
   include/CppEngine/backend/globals.hpp \
   include/CppEngine/imgui/imgui-SFML.h \
   include/CppEngine/imgui/imgui-SFML_export.h
@@ -1776,7 +1776,7 @@ include/CppEngine/imgui/imconfig.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/float.h:
 /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__float_header_macro.h:
 /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__float_float.h:
-include/CppEngine/Parents/scene.hpp:
+include/CppEngine/parents/scene.hpp:
 include/CppEngine/backend/globals.hpp:
 include/CppEngine/imgui/imgui-SFML.h:
 include/CppEngine/imgui/imgui-SFML_export.h:

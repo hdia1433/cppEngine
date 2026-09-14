@@ -2,9 +2,20 @@ obj/button.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/SDKSettings.json \
   src/model/uiElement/button.cpp include/CppEngine/uiElement/button.hpp \
   include/CppEngine/uiElement/uiElement.hpp \
-  /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/string \
-  /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__algorithm/max.h \
-  /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__algorithm/comp.h \
+  include/CppEngine/uiElement/../imgui/imgui.h \
+  include/CppEngine/uiElement/../imgui/imconfig.h \
+  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/float.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/float.h \
+  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__float_header_macro.h \
+  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__float_float.h \
+  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/stdarg.h \
+  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stdarg_header_macro.h \
+  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stdarg___gnuc_va_list.h \
+  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stdarg_va_list.h \
+  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stdarg_va_arg.h \
+  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stdarg___va_copy.h \
+  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stdarg_va_copy.h \
+  /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/stddef.h \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__config \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__config_site \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__configuration/abi.h \
@@ -19,6 +30,54 @@ obj/button.o: \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__configuration/diagnostic_suppression.h \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__configuration/namespace.h \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__configuration/pstl.h \
+  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/stddef.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/stddef.h \
+  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_header_macro.h \
+  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_ptrdiff_t.h \
+  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_size_t.h \
+  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_wchar_t.h \
+  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_null.h \
+  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_nullptr_t.h \
+  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_max_align_t.h \
+  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_offsetof.h \
+  /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_bounds.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/cdefs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_posix_availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/machine/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/arm/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/Availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/AvailabilityVersions.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/AvailabilityInternal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/AvailabilityInternalLegacy.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_size_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_null.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_ssize_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/machine/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/arm/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_strings.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_static_assert.h \
+  /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/string \
+  /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__algorithm/max.h \
+  /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__algorithm/comp.h \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__type_traits/desugars_to.h \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__type_traits/integral_constant.h \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__type_traits/is_generic_transparent_comparator.h \
@@ -125,23 +184,10 @@ obj/button.o: \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/cstdint \
   /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/stdint.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_int8_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_int16_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_int32_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_int64_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_types/_uint8_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_types/_uint16_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_types/_uint32_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_types/_uint64_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/cdefs.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_symbol_aliasing.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_posix_availability.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/machine/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/arm/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_pthread/_pthread_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_intptr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_types/_intmax_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_types/_uintmax_t.h \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__memory/pointer_traits.h \
@@ -180,10 +226,7 @@ obj/button.o: \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/cctype \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/runetype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_size_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_ct_rune_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_rune_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_wchar_t.h \
@@ -198,25 +241,7 @@ obj/button.o: \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_wchar.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/Availability.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/AvailabilityVersions.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/AvailabilityInternal.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/AvailabilityInternalLegacy.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_null.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_mbstate_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/machine/types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/arm/types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_u_int8_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_u_int16_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_u_int32_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_u_int64_t.h \
-  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/stdarg.h \
-  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stdarg_header_macro.h \
-  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stdarg___gnuc_va_list.h \
-  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stdarg_va_list.h \
-  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stdarg_va_arg.h \
-  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stdarg___va_copy.h \
-  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stdarg_va_copy.h \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_stdio.h \
@@ -226,24 +251,12 @@ obj/button.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_seek_set.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_off_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_ssize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_clock_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_time_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_timespec.h \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__mbstate_t.h \
-  /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/stddef.h \
-  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/stddef.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/stddef.h \
-  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_header_macro.h \
-  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_ptrdiff_t.h \
-  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_size_t.h \
-  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_wchar_t.h \
-  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_null.h \
-  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_nullptr_t.h \
-  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_max_align_t.h \
-  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_offsetof.h \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__algorithm/remove_if.h \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__debug_utils/sanitizers.h \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__format/enable_insertable.h \
@@ -255,10 +268,6 @@ obj/button.o: \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__utility/swap.h \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__type_traits/is_swappable.h \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/cstring \
-  /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/string.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/string.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_string.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_strings.h \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__functional/is_transparent.h \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__fwd/string.h \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__fwd/memory.h \
@@ -390,15 +399,6 @@ obj/button.o: \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__iterator/empty.h \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__iterator/reverse_access.h \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__iterator/size.h \
-  include/CppEngine/uiElement/../imgui/imgui.h \
-  include/CppEngine/uiElement/../imgui/imconfig.h \
-  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/float.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/float.h \
-  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__float_header_macro.h \
-  /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__float_float.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/assert.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_assert.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_static_assert.h \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/functional \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__functional/binary_function.h \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__functional/binary_negate.h \
@@ -476,9 +476,20 @@ obj/button.o: \
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/SDKSettings.json:
 include/CppEngine/uiElement/button.hpp:
 include/CppEngine/uiElement/uiElement.hpp:
-/opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/string:
-/opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__algorithm/max.h:
-/opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__algorithm/comp.h:
+include/CppEngine/uiElement/../imgui/imgui.h:
+include/CppEngine/uiElement/../imgui/imconfig.h:
+/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/float.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/float.h:
+/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__float_header_macro.h:
+/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__float_float.h:
+/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/stdarg.h:
+/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stdarg_header_macro.h:
+/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stdarg___gnuc_va_list.h:
+/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stdarg_va_list.h:
+/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stdarg_va_arg.h:
+/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stdarg___va_copy.h:
+/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stdarg_va_copy.h:
+/opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/stddef.h:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__config:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__config_site:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__configuration/abi.h:
@@ -493,6 +504,54 @@ include/CppEngine/uiElement/uiElement.hpp:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__configuration/diagnostic_suppression.h:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__configuration/namespace.h:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__configuration/pstl.h:
+/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/stddef.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/stddef.h:
+/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_header_macro.h:
+/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_ptrdiff_t.h:
+/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_size_t.h:
+/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_wchar_t.h:
+/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_null.h:
+/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_nullptr_t.h:
+/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_max_align_t.h:
+/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_offsetof.h:
+/opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/string.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/string.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_string.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_bounds.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/cdefs.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_symbol_aliasing.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_posix_availability.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_types.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/machine/_types.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/arm/_types.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_pthread/_pthread_types.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/Availability.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/AvailabilityVersions.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/AvailabilityInternal.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/AvailabilityInternalLegacy.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_size_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_null.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_ssize_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/machine/types.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/arm/types.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_int8_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_int16_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_int32_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_int64_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_u_int8_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_u_int16_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_u_int32_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_u_int64_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_intptr_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_uintptr_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_strings.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/assert.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_assert.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_static_assert.h:
+/opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/string:
+/opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__algorithm/max.h:
+/opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__algorithm/comp.h:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__type_traits/desugars_to.h:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__type_traits/integral_constant.h:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__type_traits/is_generic_transparent_comparator.h:
@@ -599,23 +658,10 @@ include/CppEngine/uiElement/uiElement.hpp:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/cstdint:
 /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/stdint.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/stdint.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_int8_t.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_int16_t.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_int32_t.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_int64_t.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_types/_uint8_t.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_types/_uint16_t.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_types/_uint32_t.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_types/_uint64_t.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/cdefs.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_symbol_aliasing.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_posix_availability.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/machine/_types.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/arm/_types.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_pthread/_pthread_types.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_intptr_t.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_uintptr_t.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_types/_intmax_t.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_types/_uintmax_t.h:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__memory/pointer_traits.h:
@@ -654,10 +700,7 @@ include/CppEngine/uiElement/uiElement.hpp:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/cctype:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/ctype.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_ctype.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_bounds.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/runetype.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_types.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_size_t.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_ct_rune_t.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_rune_t.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_wchar_t.h:
@@ -672,25 +715,7 @@ include/CppEngine/uiElement/uiElement.hpp:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/wchar.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/wchar.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_wchar.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/Availability.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/AvailabilityVersions.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/AvailabilityInternal.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/AvailabilityInternalLegacy.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_null.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_mbstate_t.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/machine/types.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/arm/types.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_u_int8_t.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_u_int16_t.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_u_int32_t.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_u_int64_t.h:
-/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/stdarg.h:
-/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stdarg_header_macro.h:
-/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stdarg___gnuc_va_list.h:
-/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stdarg_va_list.h:
-/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stdarg_va_arg.h:
-/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stdarg___va_copy.h:
-/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stdarg_va_copy.h:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/stdio.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/stdio.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_stdio.h:
@@ -700,24 +725,12 @@ include/CppEngine/uiElement/uiElement.hpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_seek_set.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_ctermid.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_off_t.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_ssize_t.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/time.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_time.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_clock_t.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_time_t.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_timespec.h:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__mbstate_t.h:
-/opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/stddef.h:
-/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/stddef.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/stddef.h:
-/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_header_macro.h:
-/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_ptrdiff_t.h:
-/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_size_t.h:
-/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_wchar_t.h:
-/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_null.h:
-/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_nullptr_t.h:
-/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_max_align_t.h:
-/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__stddef_offsetof.h:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__algorithm/remove_if.h:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__debug_utils/sanitizers.h:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__format/enable_insertable.h:
@@ -729,10 +742,6 @@ include/CppEngine/uiElement/uiElement.hpp:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__utility/swap.h:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__type_traits/is_swappable.h:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/cstring:
-/opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/string.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/string.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_string.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_strings.h:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__functional/is_transparent.h:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__fwd/string.h:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__fwd/memory.h:
@@ -864,15 +873,6 @@ include/CppEngine/uiElement/uiElement.hpp:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__iterator/empty.h:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__iterator/reverse_access.h:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__iterator/size.h:
-include/CppEngine/uiElement/../imgui/imgui.h:
-include/CppEngine/uiElement/../imgui/imconfig.h:
-/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/float.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/float.h:
-/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__float_header_macro.h:
-/opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__float_float.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/assert.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_assert.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_static_assert.h:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/functional:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__functional/binary_function.h:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__functional/binary_negate.h:

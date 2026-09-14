@@ -1,9 +1,6 @@
-obj/textInput.o: \
+obj/label.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/SDKSettings.json \
-  src/model/uiElement/textInput.cpp \
-  include/CppEngine/uiElement/textInput.hpp \
-  include/CppEngine/uiElement/uiElement.hpp \
-  include/CppEngine/components/label.hpp \
+  src/model/components/label.cpp include/CppEngine/components/label.hpp \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/string \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__algorithm/max.h \
   /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__algorithm/comp.h \
@@ -399,11 +396,8 @@ obj/textInput.o: \
   /opt/homebrew/Cellar/llvm/23.1.1/lib/clang/23/include/__float_float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_assert.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_static_assert.h \
-  include/CppEngine/imgui/imgui_stdlib.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_static_assert.h
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/SDKSettings.json:
-include/CppEngine/uiElement/textInput.hpp:
-include/CppEngine/uiElement/uiElement.hpp:
 include/CppEngine/components/label.hpp:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/string:
 /opt/homebrew/Cellar/llvm/23.1.1/bin/../include/c++/v1/__algorithm/max.h:
@@ -802,4 +796,3 @@ include/CppEngine/imgui/imconfig.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/assert.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_assert.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_static_assert.h:
-include/CppEngine/imgui/imgui_stdlib.h:
