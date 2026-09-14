@@ -3,6 +3,8 @@
 #include "uiElement.hpp"
 #include "CppEngine/components/label.hpp"
 
+namespace eng
+{
 class TextInput: public eng::UIElement
 {
 private:
@@ -17,3 +19,4 @@ public:
 
     void render() override;
 };
+}

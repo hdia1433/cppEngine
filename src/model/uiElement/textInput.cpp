@@ -2,6 +2,8 @@
 #include "CppEngine/imgui/imgui.h"
 #include "CppEngine/imgui/imgui_stdlib.h"
 
+using namespace eng;
+
 TextInput::TextInput(std::string_view label):
     label(label)
 {}
